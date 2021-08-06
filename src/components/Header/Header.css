@@ -1,0 +1,35 @@
+.title {
+	font-size: 6vw;
+	font-family: 'Georama', sans-serif;
+	margin-bottom: 2vw;
+	text-transform: uppercase;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	height: 35vh;
+	width: 100%;
+}
+
+@media (max-width: 900px) {
+	.title {
+		font-size: 10vw;
+	}
+
+	.header {
+		height: 25vh;
+	}
+}
+
+.inputs {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.search, .select {
+	width: 40%;
+}
